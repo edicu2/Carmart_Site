@@ -5,7 +5,7 @@
 
 ![SearchCarPage](./image/SearchCarPage.png)
 
-![searchCarPage2](./image/searchCarPage2.png)
+![searchCarPage2](./image/searchcarPage2.png)
 
 ![carRegister](./image/carRegister.png)
 
