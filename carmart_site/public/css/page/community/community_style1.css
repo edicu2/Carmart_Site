@@ -1,0 +1,204 @@
+
+
+/* section 시작 */
+
+/* aside 시작*/
+
+/* slideBox  시작 */
+
+
+/* article  자동차 종류 시작*/
+section{
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#section_wrap{
+  position: relative;
+  width:1100px;
+  height:1160px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom: 20px;
+
+}
+#side_visual{
+  position: relative;
+  display: inline-block;
+  width:175px;
+  top:25px;
+  left:20px;
+  background-color: #fcfcfc;
+  text-align: left;
+  letter-spacing: -1.5px;
+  font-weight: bold
+}
+
+#side_visual >h5 {
+  width:175px;
+  height:60px;
+  color:white;
+  font-weight: 1000;
+  padding:15px 0px 5px 20px;
+  background-color: #3a3a3a;
+  margin:0px;
+}
+#side_visual >ul {
+  list-style: none;
+  padding:0px;
+  margin:0px;
+  font-size: 0.9em;
+}
+#side_visual li a{
+  display: block;
+  padding:10px 0px 10px 20px;;
+  border: 1px solid #f4f4f4;
+  border-top: 0px;
+  color:#000000;
+}
+#side_visual li a:hover {
+  color: #ade01e;
+}
+#side_visual li:nth-child(1) a{
+  background-color: #cdcdcd;
+  color:#ffffff;
+}
+#main1_visual {
+  height:380px;
+  background-color: black;
+  background-image: url('/storage/layouts/community_img3_1.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#main1_wrap {
+  width:1023px;
+  height:380px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top:50px;
+  color:white;
+}
+#main1_ment{
+  width:440px;
+  text-align: center;
+  padding-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+#main1_ment >h1,
+#main1_ment >h4{
+  letter-spacing: -2px;
+  line-height: -20px;
+}
+#main1_ment > h1{
+  font-size:3.3em;
+  display:inline-block;
+}
+#main1_ment > h4{
+  font-size: 2em;
+  font-weight: bold;
+  display:inline-block;
+}
+#main1_ment > p{
+  font-size: 1.3em;
+  font-weight: bold;
+  display:inline-block;
+
+}
+
+#main2_visual{
+  position: absolute;
+  left:20%;
+  padding-top:20px;
+  padding-bottom:70px;
+  display: inline-block;
+}
+#main2_title{
+  margin: 10px 0 5px 0;
+  font-weight:bold;
+  font-size:1.3em;
+  letter-spacing: -2.0px;
+}
+
+
+#main2_board {
+  width:840px;
+  margin-left: auto;
+  margin-right: auto;
+  letter-spacing: -1.3px;
+
+}
+#main2_board tbody tr td:nth-child(3){
+  width:150px;
+}
+#main2_board tbody tr:nth-child(n+1):hover {
+  background-color:#efefef;
+}
+
+#main2_Paging{
+  text-align: center;
+  width:400px;
+  margin: auto;
+
+}
+
+#main2_Paging font{
+  font-size:1.2em;
+}
+#main2_Paging a{
+  padding: 4px 10px;
+  background-color: white;
+  border:1px solid #cdcdcd;
+
+}
+#main2_Paging a:hover{
+  background-color:#cdcdcd;
+}
+
+#main2_board > a{
+  width:100%;
+  height:40px;
+}
+#main2_board thead{
+  background-color: #fcfcfc;
+}
+#main2_board thead th{
+  font-style: none;
+  text-align: center;
+  padding:9px;
+  font-size: 0.75em;
+  border-top: solid 1px #cdcdcd;
+  border-bottom: solid 1px #cdcdcd;
+  color:black;
+}
+#main2_board tbody tr{
+  border-bottom: solid 1px #f0f0f0;
+}
+#main2_board tbody tr:hover{
+  cursor: pointer;
+}
+#main2_board tbody td{
+  border-style: none;
+  font-style: none;
+  text-align: center;
+  font-weight: 500;
+  font-size: 0.9em;
+  padding:5px 40px;
+  vertical-align: 200px;
+}
+
+#main2_board tbody tr td:nth-child(4){
+  width:130px;
+  font-weight: 600;
+  text-align: center;
+  font-size: 0.9em;
+}
+
+
+
+/* artivle  시작*/
+/*section 끝 */

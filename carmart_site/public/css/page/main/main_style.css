@@ -1,0 +1,242 @@
+
+/* section 시작 */
+section {
+  width:100%;
+}
+
+/* aside 시작*/
+
+#carRegis{
+  text-align: center;
+}
+#fix_visual{
+  width:140px;
+  height:500px;
+  top:200px;
+  position:fixed;
+  display:relative;
+  left: calc(50% - 670px);
+
+}
+
+#fix_visual a > div:nth-child(1){
+  background-image: url('/storage/layouts/fixbar_img1.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+#fix_visual a > div:nth-child(2){
+  background-image: url('/storage/layouts/fixbar_img3.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+#fix_visual a > div:nth-child(3){
+  background-image: url('/storage/layouts/fixbar_img3.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+#fix_visual #fix_wrap a > div{
+  width:140px;
+  height:50px;
+  margin: 5px 0px;
+}
+#search_price{
+  text-align: center;
+  border:1px solid #cdcdcd;
+}
+#search_price > #search_price_title {
+  font-size:0.8em;
+  padding:3px 0px;
+  font-weight: bold;
+  color:white;
+  background-color:#3a3a3a;
+}
+#search_price > #search_price_select{
+  background-image: url('/storage/layouts/search_price_back.png');
+  cursor:pointer;
+}
+#search_price > #search_price_select > div {
+  line-height: -1.6px;
+  font-size: 0.5em;
+  display: inline-block;
+  width:56px;
+  height:35px;
+  border-radius: 25px;
+  margin:15px 5px;
+  background-color:#efefef;
+
+}
+/* slideBox  시작 */
+#main1_slidebox {
+  display: absolute;
+  display:inline;
+  width:800px;
+	height:262px;
+}
+#main1_slidebox ul#slider {
+	list-style:none;
+  display:inline-block;
+	margin:0;
+	padding:0;
+}
+#main1_slidebox ul#slider li {
+  display:inline-block;
+  width:800px;
+  height:262px;
+}
+#rolling_img { position: relative; width: 800; height: 260px; }
+#rolling_img img { position: absolute; top:0; left:0; }
+
+#main1_councel_form {
+  position: absolute;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+ul#p_s {
+  list-style:none;
+  padding-left:0px;
+  margin-bottom: 0px;
+}
+ul#p_s > li {
+  padding:9px 27.5px;
+  display:inline-block;
+  font-size: 0.9em;
+  color:white;
+  font-weight: bold;
+  margin-right: -2px;
+}
+li#sell {
+  background-color: #757575;
+}
+#counsel_box{
+  display: inline-block;
+  width:211px;
+  height:260px;
+  background-color: #909090;
+  cursor: pointer;
+}
+
+#counsel_form {
+
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0.8em;
+}
+
+#counsel_form select,
+#counsel_form input {
+  font-size: 1.0em;
+  color:#757575;
+}
+table#info {
+  margin-top:10px;
+  margin-left:15px;
+}
+table#info td {
+  padding-top:4px;
+}
+
+
+table#info label{
+  font-size: 0.8em;
+  color:white;
+}
+
+table#info input#info_p {
+  margin-bottom:7px;
+}
+
+table#info input#tel{
+  margin-top:-7px;
+}
+
+table#info input#submit{
+  color:black;
+  background-color:white;
+}
+
+/* slideBox  끝 */
+/* aside 끝*/
+
+/* article  자동차 종류 시작*/
+
+#main1_visual {
+  height:262px;
+  width:100%;
+}
+/*main1_wrap 시작 */
+#main1_wrap{
+  height:262px;
+  width:1023px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*main1_wrap 끝*/
+
+/*main2_wrap 시작*/
+#main2_visual {
+  width:100%;
+  margin-bottom: 60px;
+}
+#main2_wrap {
+  width:1023px;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  border: #f0f0f0 solid 2px;
+  border-top:black solid 2px;
+}
+
+
+/*main2_wrap 끝*/
+#main2_menubar ul {
+  width: 1000px;
+  height:45px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#main2_menubar ul li{
+  text-align:center;
+  margin-left: auto;
+  margin-right: auto;
+}
+#main2_menubar ul li button{
+  width: 108px;
+  background-color: white;
+}
+#main2_menubar ul li button{
+  outline: none;
+}
+#main2_menu {
+  width:1019px;
+}
+
+#main2_menu ul {
+  padding:15px 25px 20px 24px;
+  margin-bottom: 0px;
+  width:1019px;
+  display:block;
+}
+#main2_menu ul li {
+  margin: 0px 6px 5px 0px;
+  width: 152px;
+  height: 162px;
+  display:inline-block;
+  text-align:center;
+  list-style: none;
+}
+#main2_menu .car_txt {
+  margin-top:5px;
+  font-size: 0.75em;
+}
+#main2_menu .car_txt > .car_price {
+  font-size: 1.4em;
+  font-weight: bold;
+  color:#95b601;
+}
+
+
+/* artivle  시작*/
+/*section 끝 */

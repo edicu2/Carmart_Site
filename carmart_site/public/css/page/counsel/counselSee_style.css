@@ -1,0 +1,291 @@
+section {
+  height: auto;
+}
+
+#main1_visual{
+  height:1000px;
+  width:100%;
+  margin-bottom: 10px;
+}
+#main1_wrap{
+  height:1000px;
+  width:100%;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+#main1_ment_back{
+  width:100%;
+  background-color:#f0f0f0;
+}
+
+/* section 시작 */
+#main1_ment {
+  padding-top:20px;
+  width:966px;
+  height:240px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#main1_write {
+  padding-top:10px;
+  width:1023px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#main1_write > h1 {
+  margin: 15px 0 4px 0;
+  font-weight:bold;
+  font-size:1.3em;
+  letter-spacing: -2.0px;
+}
+#main1_write > h4 {
+  position:relative;
+  display:inline;
+  font-weight:bold;
+  font-size:0.9em;
+  letter-spacing: -2.0px;
+}
+#main1_write > p{
+  margin-left:13px;
+  display:inline;
+  font-size:0.6em;
+  font-weight: bold;
+  color:red;
+}
+#main1_inputform {
+  margin-bottom:30px;
+}
+#main1_inputform table {
+  border:3px solid #dcdcdc;
+}
+
+#main1_inputform tr > td:nth-child(1) {
+  width:109px;
+  padding: 13px 10px 8px 10px;
+  text-align: right;
+  font-size:0.8em;
+  color:#757575;
+  background-color: #f6f6f6;
+}
+
+#main1_inputform tr > td:nth-child(2) {
+  border-right:3px solid #dcdcdc;
+}
+#main1_inputform tr > td:nth-child(2) >textarea {
+  resize: none;
+  width:895px;
+  margin:5px;
+  font-size: 0.8em;
+}
+#main1_inputform tr > td:nth-child(2) > input,
+#main1_inputform tr > td:nth-child(2) > select{
+  display:inline-block;
+  width:250px;
+  height:35px;
+  font-size: 0.8em;
+  margin: 0px 3px 0px 5px;
+
+}
+
+#main1_inputform tr > td:nth-child(2) input#title {
+  width:895px;
+}
+#main1_inputform tr > td:nth-child(2) input#phone1,
+#main1_inputform tr > td:nth-child(2) input#phone2,
+#main1_inputform tr > td:nth-child(2) input#phone3 {
+  width:60px;
+  font-size: 0.85em;
+}
+#main1_inputform tr > td:nth-child(2) span#phone_error{
+  font-size: 0.8em;
+}
+#main1_inputform tr > td:nth-child(3) > select {
+  display:inline;
+  font-size: 0.8em;
+  width:150px;
+}
+#main1_inputform tr > td:nth-child(2) input#checkbox{
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 15px;
+  height: 15px;
+}
+span#checkbox_p{
+  display:inline-block;
+  font-size:0.8em;
+  font-weight: bold;
+}
+#btn1, #btn2,#btn3{
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+
+/* article t시*/
+#reMove{
+  padding-bottom: 10px;
+}
+#comment_visual {
+  width:1023px;
+  padding: 10px 0px;
+  margin:0 auto 50px auto;
+}
+#comment_ment {
+  padding:10px 0 0px 20px;
+  border-bottom: 1px solid #cdcdcd;
+
+}
+#comment_Paging{
+  width:1023px;
+  margin:auto;
+  margin-top:20px;
+  text-align: center;
+}
+
+#comment_Paging ul{
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+}
+#comment_Paging li{
+  display : inline-block;
+}
+
+
+#comment2_visual {
+  width:960px;
+  background-color: #eaecef;
+  margin:0 auto;
+  border-top: 1px solid #cdcdcd;
+}
+
+#profile{
+  position: relative;
+  font-size: 1.1em;
+  top:35px;
+  left:45px;
+}
+textarea#commentArea{
+  border-radius: 0px;
+  height:190px;
+  width:950px;
+  resize: none;
+  border:2px #acacac solid;
+  border-bottom: none;
+  outline: none;
+  display: block;
+  margin: -30px auto 0px auto;
+  padding: 50px 15px 10px 20px;
+  overflow-y: hidden;
+  letter-spacing: -1.0px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+#user_img{
+  border-radius:5px;
+  width: 26px;
+  height: 26px;
+  margin-right: 4px;
+  margin-top:17px;
+  margin-bottom:20px;
+
+}
+#user_id{
+  font-weight: bold;
+}
+
+#comment {
+  font-size: 1.1em;
+  margin-top:-10px;
+
+}
+
+
+input#dapreg{
+  font-size: 0.9em;
+  font-weight: bold;
+  width:60px;
+  height:35px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+  border: 1px #dfdfdf solid;
+}
+#create_at{
+  font-size: 0.9em;
+  color: #7d7d7d;
+  margin-bottom: 10px;
+}
+
+#commentregButtons{
+  width:950px;
+  height: 48px;
+  border: 1px solid #000000;
+  margin: -3px auto 30px auto;
+  border-left:2px #acacac solid;
+  border-right:2px #acacac solid;
+  border-bottom:2px #acacac solid;
+  border-top: 1px #dfdfdf solid;
+  background-color: white;
+
+}
+input#photo{
+  font-size: 0.9em;
+  font-weight: bold;
+  width:57px;
+  height:43px;
+  background-color: #ffffff;
+  border:none;
+  position:relative;
+  text-align: right;
+  background-image: url('/storage/layouts/camera_reg.png');
+  background-position: left;
+  background-repeat: no-repeat;
+  margin-left: 30px;
+  outline: none;
+}
+input:hover{
+  cursor:pointer;
+}
+input#reg{
+  font-size: 0.9em;
+  font-weight: bold;
+  width:65px;
+  height:44px;
+  background-color: #ffffff;
+  border:none;
+  border-left: 1px #dfdfdf solid;
+  position:relative;
+  left: 787px;
+}
+
+#comment2_ment {
+  border-bottom: 1px solid #cdcdcd;
+  width:1023px;
+  height:auto;
+  margin:0px auto 0px auto;
+  padding-top:0px;
+  padding-left:60px;
+  padding-bottom: 0px;
+  background-image: url('/storage/layouts/comment2.png');
+  background-repeat: no-repeat;
+  background-color: rgba(180, 180, 180, 0.1);
+}
+
+
+#deleteComment {
+  font-size: 0.9em;
+  font-weight: bold;
+  width:60px;
+  height:35px;
+  margin-top: 13px;
+  margin-bottom: 17px;
+  background-color: #ffffff;
+  border: 1px #dfdfdf solid;
+}
+
+/* artivle  시작*/
+/*section 끝 */

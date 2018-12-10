@@ -1,0 +1,120 @@
+
+
+/* section 시작 */
+#join_visual {
+  width:100%;
+  height:850px;
+}
+
+#join_ment {
+  padding-top:10px;
+  width:1023px;
+  height:210px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#join_ment > h1 {
+  margin: 10px 0 5px 0;
+  font-weight:bold;
+  font-size:1.3em;
+  letter-spacing: -2.0px;
+}
+
+
+#join_ment2 {
+  width:1023px;
+  height:300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:20px;
+  margin-bottom:20px;
+  background-image: url('/storage/layouts/join0_ment2.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#join_ment2 > h1 {
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: -1.5px;
+  padding:70px 30px 30px 40px;
+  color:#ffffff;
+}
+#join_ment2 >h6{
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: -1.5px;
+  padding:0px 30px 0px 40px;
+  color:#ffffff;
+}
+
+#join_select {
+  width:1023px;
+  height:160px;
+  padding-top:6px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#join_select h5 {
+  font-size: 1.0em;
+  font-weight:bold;
+}
+#join_select span {
+  font-size:0.9em;
+}
+ #join_select button{
+  display:inline-block;
+  margin-top:10px;
+  background-color:#cdcdcd;
+  border:1px solid #cdcdcd;
+  border-radius: 5px;
+  color:#ffffff;
+}
+#join_select_nomal:hover,
+#join_select_diller:hover{
+ background-color:#c2fda8;
+ border-radius: 10px;
+}
+#join_select_nomal:hover button,
+#join_select_diller:hover button{
+  background-color:#f6f6f6;
+  border:1px solid #f6f6f6;
+  color:#898988;
+}
+#join_select > form {
+  display:inline-block;
+}
+
+#join_select_img {
+  position:relative;
+  display:inline-block;
+  left:4%;
+  bottom:35%;
+}
+
+#join_select_nomal {
+  position:relative;
+  display:inline-block;
+  margin-left: 70px;
+  padding:10px 50px 10px 10px;
+  left:3%;
+  width:280px;
+
+}
+#join_select_diller{
+  position:relative;
+  display:inline-block;
+  padding:10px 50px 10px 10px;
+  left:5%;
+  width:280px;
+}
+form input[name=divide] {
+  display:none;
+}
+
+/* article t시*/
+
+
+
+
+/* artivle  시작*/
+/*section 끝 */

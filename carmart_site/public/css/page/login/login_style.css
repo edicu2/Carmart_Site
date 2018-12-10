@@ -1,0 +1,172 @@
+/* section 시작 */
+section {
+  height:850px;
+}
+#google_button, #facebook_button, #github_button {
+  width:400px;
+  height:60px;
+  padding:10px;
+  padding:top:21px;
+  background-size: cover;
+  margin:auto;
+  margin-bottom:5px;
+  border-radius: 5px;
+  color:white;
+  font-size:1.1em;
+  font-weight: bold;
+  line-height: 40px;
+  cursor: pointer;
+
+}
+#google_button{
+  margin-top:10px;
+  background-image: url('/storage/layouts/google_social.png');
+}
+#facebook_button{
+  background-image: url('/storage/layouts/facebook_social.png');
+}
+#github_button{
+  background-image: url('/storage/layouts/github_social.png');
+}
+#login_visual {
+  position:absolute;
+  padding-top: 20px;
+  width:100%;
+  height:800px;
+}
+#login_ment {
+  width:1023px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#login_ment > h1 {
+  margin: 10px 0 5px 0;
+  font-weight:bold;
+  font-size:1.3em;
+  letter-spacing: -2.0px;
+}
+#login_wrap {
+  padding-top:30px;
+  width:1023px;
+  margin: 0px auto 20px auto;
+  text-align: center;
+  background-color:#f6f6f6;
+}
+#login_wrap > h1 ,
+#login_wrap > p{
+  font-weight: bold;
+  letter-spacing: -1.5px;
+  padding:5px 0;
+}
+#login_wrap > span{
+  color:#757575;
+}
+#login_formP {
+  padding:20px 15px
+}
+
+#login_table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#login_table tr > td {
+  padding: 0 10px;
+}
+#login_table tr> td:nth-child(1){
+  text-align: right;
+  line-height: 20px;
+}
+#login_table label{
+  font-weight: bold;
+}
+#login_table input{
+  margin-bottom:2px;
+}
+#login_table input[type="submit"]{
+  padding:20px 20px;
+}
+#login_table input[type="text"],
+#login_table input[type="password"]{
+  height:30px;
+  border:1px #cdcdcd solid;
+}
+
+#login_wrap2 {
+  width:1023px;
+  height:300px;
+  margin: 40px auto 10px auto;
+  text-align: center;
+
+}
+#login_wrap2 h5 {
+  font-size: 1.0em;
+  font-weight:bolder;
+}
+#login_wrap2 span {
+  font-size:0.9em;
+  color:#afafaf;
+}
+
+#login_wrap2 button{
+  display:inline-block;
+  margin-top:10px;
+  padding:5px 10px;
+  background-color:#7d7d7d;
+  border:1px solid #cdcdcd;
+  border-radius: 5px;
+  color:#ffffff;
+}
+#join_move,
+#id_search,
+#pw_search{
+  text-align: left;
+  position:relative;
+  display:inline-block;
+  padding:10px 0px 10px 80px;
+  width:300px;
+}
+#join_move{
+  background-image: url('/storage/layouts/add_user.png');
+  background-repeat: no-repeat;
+  background-position: left;
+  margin-bottom: 100px;
+}
+#id_search{
+  background-image: url('/storage/layouts/search_id.png');
+  background-repeat: no-repeat;
+  background-position: left;
+}
+#pw_search{
+  background-image: url('/storage/layouts/search_pw.png');
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+#join_move:hover
+{
+  background-image: url('/storage/layouts/add_user_h.png');
+  cursor: pointer;
+}
+
+#id_search:hover
+{
+  background-image: url('/storage/layouts/search_id_h.png');
+  cursor: pointer;
+}
+
+#pw_search:hover {
+  background-image: url('/storage/layouts/search_pw_h.png');
+  cursor: pointer;
+}
+
+#join_move:hover button,
+#id_search:hover button,
+#pw_search:hover button{
+  background-color:#92dd5a;
+  border:1px solid #f6f6f6;
+}
+
+
+/* artivle  시작*/
+/*section 끝 */

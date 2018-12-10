@@ -1,0 +1,502 @@
+section{
+
+}
+#submit_button {
+  position: fixed;
+  background-color: red;
+  bottom:30px;
+  width:1023px;
+  z-index: 1000;
+  background-color: #add117;
+
+  font-weight: bold;
+}
+
+#carReis_ment {
+  padding-top:10px;
+  width:1023px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#carReis_ment > h1 {
+  margin: 10px 0 5px 0;
+  font-weight:bold;
+  font-size:1.3em;
+  letter-spacing: -2.0px;
+}
+
+#carRegis_wrap {
+  padding-top:10px;
+  width:1023px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#carRegis_wrap > h4 {
+  position:relative;
+  display:inline;
+  font-weight:bold;
+  font-size:0.9em;
+  letter-spacing: -2.0px;
+}
+#carRegis_wrap > p {
+  margin-left:13px;
+  display:inline;
+  font-size:0.6em;
+  font-weight: 1000;
+  color:red;
+}
+
+#carRegis_form {
+  margin-bottom:10px;
+}
+
+#carRegis_form_1 {
+  position: relative;
+  width:1023px;
+  height:350px;
+}
+#carRegis_form_1 #left,
+#carRegis_form_1 #right{
+  display:inline-block;
+  position: absolute;
+}
+#carRegis_form_1 > #left{
+  width:450px;
+  margin-right: 10px;
+}
+h4{
+  font-weight:bold;
+  font-size:0.9em;
+  letter-spacing: -2.0px;
+}
+#carRegis_form_1 > #left  #preview{
+  border-top:2px solid #1d1d1d;
+  width:410px;
+  height:345px;
+}
+#preSumnail {
+  margin:5px;
+  width:415px;
+  background-color: white;
+}
+#preSumnail > div{
+  position: relative;
+  display:inline-block;
+  margin-right: 3.3px;
+  margin-bottom:4px;
+  width:76px;
+  height:64px;
+}
+#preSumnail > div > button{
+  font-size: 1em;
+  font-weight: bold;
+  position: absolute;
+  display: inline;
+  height:20px;
+  padding:0px 4px 4px 3.5px;
+  border-radius: 30px;
+  border:2px solid white;
+  color:black;
+  top:1px;
+  right:2px;
+  opacity: 0;
+  display:none;
+  line-height: 5px;
+}
+#preSumnail > div:hover button{
+  cursor:pointer;
+  display:block;
+  opacity: 0.8;
+  background-color: #add01e;
+  color:white;
+  border:
+}
+
+#my-dropzone {
+  border-top:2px solid #1d1d1d;
+  background-repeat: no-repeat;
+  background-image:url('/storage/layouts/drag0.png');
+  background-size: contain;
+  display: inline-block;
+  width:450px;
+  height:345px;
+}
+#my-dropzone input{
+  display: inline-block;
+  width:450px;
+  height:340px;
+  opacity: 0;
+  border-top:2px solid #1b1b1b;
+}
+
+#my-dropzone div.dz-default {
+  display: none;
+}
+#carRegis_form_1 > #right{
+  padding-top:5px;
+  border-top:2px solid #1b1b1b;
+  width:572px;
+  margin-left: 450px;
+}
+
+#selection_category{
+  margin: auto;
+  border-top: 2px solid #1b1b1b;
+}
+#selection_category >table {
+  margin: auto;
+  font-size: 0.8em;
+}
+#selection_category >table tr:nth-child(1) > td {
+  text-align: center;
+  font-size: 0.8em;
+  padding:0;
+  border:1px solid #cdcdcd;
+  border-bottom: 2px solid #adadad;
+}
+#selection_category >table tr:nth-child(2) > td{
+  text-align: center;
+  font-size: 0.8em;
+  padding:0;
+  border:1px solid #cdcdcd;
+  color: #626262;
+}
+#selection_category >table tr:nth-child(2) select{
+  border-bottom: none;
+}
+#selection_category >table  tr:nth-child(1) > td >div{
+  padding:4.5px 0;
+}
+#selection_category >table td >select{
+  margin-left: -1px;
+  border-color: #cdcdcd;
+  font-size: 1.25em;
+}
+#selection_category >table td:nth-child(1){
+  width:100px;
+}
+#selection_category >table td:nth-child(2){
+  width:120px;
+}
+#selection_category >table td:nth-child(3){
+  width:120px;
+}
+#selection_category >table td:nth-child(4){
+  width:232px;
+}
+
+#selection_category >table tr:nth-child(2) select:nth-child(1){
+  width:100px;
+}
+#selection_category >table tr:nth-child(2) select#kind{
+  width:120px;
+}
+#selection_category >table tr:nth-child(2) select#model{
+  width:120px;
+}
+#selection_category >table tr:nth-child(2) select#grade{
+  width:232px;
+}
+
+#selection_category2 {
+  background-color: #fafafa;
+  height:190px;
+  border:1px solid #cdcdcd;
+  border-top: none;
+  padding:13px 0px 0px 38px;
+  background-image: url('/storage/layouts/carRegis_category2_back.png');
+}
+#selection_category2 > label {
+  width:230px;
+  font-size:0.8em;
+  color:#7a7a7a;
+}
+#selection_category2 > label:nth-child(2n+1) {
+  margin-right: 60px;
+}
+#selection_category2 > label >span {
+  display:inline-block;
+  width:60px;
+}
+#selection_category2 > label select {
+  width:100px;
+  margin-left: 30px;
+}
+#selection_category2 > label input {
+  width:100px;
+  margin-left: 30px;
+}
+#selection_category2  input[type="button"] {
+  width:240px;
+  height:36px;
+  margin-left: 270px;
+  border:none;
+  font-size: 0.8em;
+  background-image: url('/storage/layouts/category_application.png');
+  background-color: #add117;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+#downPoint0 {
+  height:200px;
+  background-image: url('/storage/layouts/downPoint2.png');
+  margin-bottom:20px;
+}
+#downPoint {
+  height:200px;
+  background-image: url('/storage/layouts/downPoint1.png');
+  margin-bottom:70px;
+}
+
+
+#carRegis_preview {
+  width:1023px;
+
+  margin-bottom: 30px
+}
+#carRegis_bar {
+  border-top: 2px solid #1b1b1b;
+}
+#carRegis_bar > div{
+  height:36px;
+  margin-bottom: 30px;
+  background-color: #f6f6f6;
+}
+
+#carRegis_bar  a {
+  margin-right: -5px;
+  display:inline-block;
+  padding:8px 52px;
+  font-weight: bold;
+  font-size: 0.85em;
+  border-left:1px solid #adadad;
+  border-right:1px solid #adadad;
+}
+
+#carRegis_bar:nth-child(1)  a:nth-child(1),
+{
+  background-image: url('/storage/layouts/carRegis_bar_choice.png');
+  background-size: cover;
+  margin-bottom: 14px;
+  color:white;
+
+}
+
+
+#pre_img {
+  width:420px;
+  display:inline-block;
+  margin-bottom: 30px;
+}
+#pre_info {
+  width:570px;
+  height:610px;
+  display:inline-block;
+  position: absolute;
+  margin-left: 30px;
+  border:1px solid #adadad;
+  border-top: 2px solid #1b1b1b;
+}
+#pre_info > #pre_info_title{
+  padding: 30px 30px;
+  height:165px;
+  border-bottom:1px solid #adadad;
+  letter-spacing: -1.1px;
+}
+#pre_info > #pre_info_title #carName{
+  font-size:1.3em;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+#pre_info > #pre_info_title #carPrice span{
+  font-size:0.8em;
+  color: #717171;
+  font-weight: bold;
+}
+#pre_info > #pre_info_title #carPrice strong{
+  margin-left: 20px;
+  margin-right:220px;
+  font-size:1.4em;
+}
+
+#pre_info > #pre_info_body{
+  background-image: url('/storage/layouts/carRegis_category2_back.png');
+  padding: 30px 0px 0px 30px;
+  height:165px;
+  border-bottom:1px solid #adadad;
+  letter-spacing: -1.1px;
+}
+
+#pre_info > #pre_info_body span {
+  display:inline-block;
+  font-size:0.8em;
+  width:89px;
+  color: #717171;
+  margin-right: 10px;
+  margin-left: 25px;
+  margin-bottom: 5px;
+}
+#pre_info > #pre_info_body span:nth-child(2n) {
+  font-size:0.85em;
+  color:black;
+}
+#sell_profile{
+  padding:0px 0px 0px 150px;
+  height:150px;
+  border-bottom: 1px solid #adadad;
+}
+#profile_img{
+  position: absolute;
+  left:0px;
+  width:150px;
+  height:150px;
+}
+
+#profile {
+  padding: 10px 0px 0px 0px ;
+}
+
+#profile > div {
+  font-size: 0.85em;
+  font-weight: bold;
+  color: #717171;
+}
+#profile > div:nth-child(1),
+#profile > div:nth-child(2) {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+#profile > div b,
+#profile > div strong{
+  margin-left: 20px;
+  color:#1b1b1b;
+}
+#profile > div b{
+  font-size: 1.2em;
+}
+#profile > div strong{
+  font-size: 1.5em;
+}
+#ment {
+  height:66px;
+  padding-top:20px;
+  text-align: center;
+  background-color: #B7F0B1;
+}
+#counsel {
+  height:127px;
+  background-image: url('/storage/layouts/counsel_back1.png');
+  background-color: rgba(0,0,0,0.5);
+}
+
+#pre_content {
+  padding: 30px 20px;
+  margin-bottom: 40px;
+  border: 1px solid #adadad;
+}
+#pre_content p img{
+  display:inline-block;
+}
+
+#pre_car_img {
+  text-align: center;
+  border: 1px solid #adadad;
+  padding: 30px 0px;
+  margin-bottom: 40px;
+}
+
+#pre_car_img img {
+  margin: 20px 0px;
+  display:inline-block;
+  width:700px;
+}
+
+#pre_guarantee{
+  padding:10px 5px;
+  border: 1px solid #adadad;
+  font-size: 0.75em;
+  margin-bottom: 20px;
+}
+#pre_guarantee strong{
+  font-size: 1.2em;
+}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 35%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  color:white;
+}
+
+/* Caption text */
+.text {
+  color: #adadad;
+  font-size: 12px;
+  padding: 1px 12px;
+  bottom: 1px;
+  width: 100%;
+  text-align: center;
+  background-color: black;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: 0.3}
+  to {opacity: 1}
+
+}
+
+@keyframes fade {
+  from {opacity: 0.3}
+  to {opacity: 1}
+}
