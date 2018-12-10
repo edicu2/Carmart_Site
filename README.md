@@ -17,7 +17,7 @@
 
 ![comment](./image/Comment.png)
 
-![community](./image/community.png)
+![Community](./image/Community.png)
 
 ![search](./image/Search.png)
 
