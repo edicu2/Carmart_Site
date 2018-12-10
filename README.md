@@ -1,22 +1,22 @@
 # Carmart_Site
 
 
-![mainPage](./image/mainPage.PNG)
+![mainPage](./image/mainPage.png)
 
-![SearchCarPage](./image/SearchCarPage.PNG)
+![SearchCarPage](./image/SearchCarPage.png)
 
-![searchCarPage2](./image/searchCarPage2.PNG)
+![searchCarPage2](./image/searchCarPage2.png)
 
-![carRegister](./image/carRegister.PNG)
+![carRegister](./image/carRegister.png)
 
 ![carRegister2](./image/carRegister2.jpg)
 
-![carRegister3](./image/carRegister3.PNG)
+![carRegister3](./image/carRegister3.png)
 
-![loginPage](./image/loginPage.PNG)
+![loginPage](./image/loginPage.png)
 
-![comment](./image/Comment.PNG)
+![comment](./image/Comment.png)
 
-![community](./image/community.PNG)
+![community](./image/community.png)
 
-![search](./image/Search.PNG)
+![search](./image/Search.png)
